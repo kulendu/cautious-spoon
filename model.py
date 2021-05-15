@@ -78,3 +78,5 @@ emotion_analyzer(rmv_punc)
 plt.figure()
 plt.bar(count_emotion.keys(), count_emotion.values())
 plt.show()
+
+print("The statement is a ", max(count_emotion.keys()), " statement")
